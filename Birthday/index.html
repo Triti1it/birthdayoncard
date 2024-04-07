@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday To You Vidish</h1>
+        <img src="Birthday Boy.png" alt="Birthday Boy" class="Birthday Boy">
+        <p class="message">May all your dreams and wishes come true on this special day. Stay blessed and healthy. Keep Going, Keep Growing. Enjoy yourself!</p>
+        <button onclick="playBirthdaySong()" class="btn">Press Me!!</button>
+        <audio id="birthdaySong" src="birthdaySong.mp3"></audio>
+    </div>
+
+    <script>
+        function playBirthdaySong() {
+            var audio = document.getElementById("birthdaySong");
+            audio.play();
+        }
+    </script>
+</body>
+</html>
